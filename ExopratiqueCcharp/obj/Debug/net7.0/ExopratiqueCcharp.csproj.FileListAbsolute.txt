@@ -1,0 +1,15 @@
+C:\FormationC#\CourC_Charps\ExoPratiquesCcharp\ExopratiqueCcharp\bin\Debug\net7.0\ExopratiqueCcharp.exe
+C:\FormationC#\CourC_Charps\ExoPratiquesCcharp\ExopratiqueCcharp\bin\Debug\net7.0\ExopratiqueCcharp.deps.json
+C:\FormationC#\CourC_Charps\ExoPratiquesCcharp\ExopratiqueCcharp\bin\Debug\net7.0\ExopratiqueCcharp.runtimeconfig.json
+C:\FormationC#\CourC_Charps\ExoPratiquesCcharp\ExopratiqueCcharp\bin\Debug\net7.0\ExopratiqueCcharp.dll
+C:\FormationC#\CourC_Charps\ExoPratiquesCcharp\ExopratiqueCcharp\bin\Debug\net7.0\ExopratiqueCcharp.pdb
+C:\FormationC#\CourC_Charps\ExoPratiquesCcharp\ExopratiqueCcharp\obj\Debug\net7.0\ExopratiqueCcharp.csproj.AssemblyReference.cache
+C:\FormationC#\CourC_Charps\ExoPratiquesCcharp\ExopratiqueCcharp\obj\Debug\net7.0\ExopratiqueCcharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\FormationC#\CourC_Charps\ExoPratiquesCcharp\ExopratiqueCcharp\obj\Debug\net7.0\ExopratiqueCcharp.AssemblyInfoInputs.cache
+C:\FormationC#\CourC_Charps\ExoPratiquesCcharp\ExopratiqueCcharp\obj\Debug\net7.0\ExopratiqueCcharp.AssemblyInfo.cs
+C:\FormationC#\CourC_Charps\ExoPratiquesCcharp\ExopratiqueCcharp\obj\Debug\net7.0\ExopratiqueCcharp.csproj.CoreCompileInputs.cache
+C:\FormationC#\CourC_Charps\ExoPratiquesCcharp\ExopratiqueCcharp\obj\Debug\net7.0\ExopratiqueCcharp.dll
+C:\FormationC#\CourC_Charps\ExoPratiquesCcharp\ExopratiqueCcharp\obj\Debug\net7.0\refint\ExopratiqueCcharp.dll
+C:\FormationC#\CourC_Charps\ExoPratiquesCcharp\ExopratiqueCcharp\obj\Debug\net7.0\ExopratiqueCcharp.pdb
+C:\FormationC#\CourC_Charps\ExoPratiquesCcharp\ExopratiqueCcharp\obj\Debug\net7.0\ExopratiqueCcharp.genruntimeconfig.cache
+C:\FormationC#\CourC_Charps\ExoPratiquesCcharp\ExopratiqueCcharp\obj\Debug\net7.0\ref\ExopratiqueCcharp.dll

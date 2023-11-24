@@ -3,7 +3,6 @@ C:\FormationC#\CourC_Charps\ExoPratiquesCcharp\ExopratiqueCcharp\bin\Debug\net7.
 C:\FormationC#\CourC_Charps\ExoPratiquesCcharp\ExopratiqueCcharp\bin\Debug\net7.0\ExopratiqueCcharp.runtimeconfig.json
 C:\FormationC#\CourC_Charps\ExoPratiquesCcharp\ExopratiqueCcharp\bin\Debug\net7.0\ExopratiqueCcharp.dll
 C:\FormationC#\CourC_Charps\ExoPratiquesCcharp\ExopratiqueCcharp\bin\Debug\net7.0\ExopratiqueCcharp.pdb
-C:\FormationC#\CourC_Charps\ExoPratiquesCcharp\ExopratiqueCcharp\obj\Debug\net7.0\ExopratiqueCcharp.csproj.AssemblyReference.cache
 C:\FormationC#\CourC_Charps\ExoPratiquesCcharp\ExopratiqueCcharp\obj\Debug\net7.0\ExopratiqueCcharp.GeneratedMSBuildEditorConfig.editorconfig
 C:\FormationC#\CourC_Charps\ExoPratiquesCcharp\ExopratiqueCcharp\obj\Debug\net7.0\ExopratiqueCcharp.AssemblyInfoInputs.cache
 C:\FormationC#\CourC_Charps\ExoPratiquesCcharp\ExopratiqueCcharp\obj\Debug\net7.0\ExopratiqueCcharp.AssemblyInfo.cs

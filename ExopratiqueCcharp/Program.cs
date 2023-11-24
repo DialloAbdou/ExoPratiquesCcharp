@@ -17,8 +17,14 @@ using ExopratiqueCcharp.session2;
 //Tuple<int,bool, string> conv = Exercice1.GetConvert();
 //Console.WriteLine($" myIntConvert :  {conv.Item1}, myBoolConverted : {conv.Item2}, myStringConvert: {conv.Item3}");
 // var conv = Exercice1.GetConvert();
-var word = "robert trebor";
-var estpalindrom =  Exercice1.IsPalindrome(word);
+//var word = "robert trebor";
+//var estpalindrom =  Exercice1.IsPalindrome(word);
 
-Console.WriteLine(estpalindrom);
+//Console.WriteLine(estpalindrom);
+
+var tab = new int[] { 1, 2, 3, 1, 1, 1, 2, 5 };
+
+ var disc =Exercice1.StoreAndCount(tab);
+
+Exercice1.lireDisct(disc);
 

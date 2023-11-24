@@ -71,9 +71,61 @@ namespace ExopratiqueCcharp.session2
             Array.Reverse(second);
             var secondString = new String(second);
             var halfSecondString = secondString.Substring(0, secondString.Length/2);
-
             return first.Equals(halfSecondString);
 
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="tabs"></param>
+        /// <returns></returns>
+        public static Dictionary<int , int> StoreAndCount(int[]tabs)
+        {
+            Dictionary<int, int> dic = new Dictionary<int, int>();
+            
+            foreach (var t in tabs)
+            {
+                if (dic.ContainsKey(t))
+                {
+                    dic[t] += 1;
+                }else
+                {
+                    dic.Add(t, 1);
+                }
+            }
+            return dic; 
+          
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <typeparam name="K"></typeparam>
+        /// <typeparam name="V"></typeparam>
+        /// <param name="dict"></param>
+        public static void PrintDict<K, V>(Dictionary<K, V> dict)
+        {
+            for (int i = 0; i < dict.Count; i++)
+            {
+                KeyValuePair<K, V> entry = dict.ElementAt(i);
+                Console.WriteLine(entry.Key + " : " + entry.Value);
+            }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <typeparam name="K"></typeparam>
+        /// <typeparam name="V"></typeparam>
+        /// <param name="dict"></param>
+        public static void lireDisct<K,V>(Dictionary<K, V> dict)
+        {
+            for(int i = 0; i < dict.Count;i++)
+            {
+                KeyValuePair<K,V> entry = dict.ElementAt(i);
+                Console.WriteLine(entry.Key + " :" + entry.Value);
+            }
         }
     }
 }

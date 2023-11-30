@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -68,9 +69,10 @@ namespace ExopratiqueCcharp.session2
             string first = pal.Substring(0, pal.Length / 2);
             // donnonse l'inverse du mot
             var second = pal.ToCharArray();
+
             Array.Reverse(second);
             var secondString = new String(second);
-            var halfSecondString = secondString.Substring(0, secondString.Length/2);
+            var halfSecondString = secondString.Substring(0, secondString.Length / 2);
             return first.Equals(halfSecondString);
 
         }
@@ -80,22 +82,23 @@ namespace ExopratiqueCcharp.session2
         /// </summary>
         /// <param name="tabs"></param>
         /// <returns></returns>
-        public static Dictionary<int , int> StoreAndCount(int[]tabs)
+        public static Dictionary<int, int> StoreAndCount(int[] tabs)
         {
             Dictionary<int, int> dic = new Dictionary<int, int>();
-            
+
             foreach (var t in tabs)
             {
                 if (dic.ContainsKey(t))
                 {
                     dic[t] += 1;
-                }else
+                }
+                else
                 {
                     dic.Add(t, 1);
                 }
             }
-            return dic; 
-          
+            return dic;
+
         }
 
         /// <summary>
@@ -119,13 +122,99 @@ namespace ExopratiqueCcharp.session2
         /// <typeparam name="K"></typeparam>
         /// <typeparam name="V"></typeparam>
         /// <param name="dict"></param>
-        public static void lireDisct<K,V>(Dictionary<K, V> dict)
+        public static void lireDisct<K, V>(Dictionary<K, V> dict)
         {
-            for(int i = 0; i < dict.Count;i++)
+            for (int i = 0; i < dict.Count; i++)
             {
-                KeyValuePair<K,V> entry = dict.ElementAt(i);
+                KeyValuePair<K, V> entry = dict.ElementAt(i);
                 Console.WriteLine(entry.Key + " :" + entry.Value);
             }
+        }
+
+        public int computeClosertoZero(int[] temps)
+        {
+            int tempcour = int.MaxValue;
+            if (temps.Length == 0)
+                return 0;
+            for (int i = 0; i < temps.Length; i++)
+            {
+                if ((Math.Abs(temps[i]) < tempcour) || ((tempcour > 0) && (Math.Abs(temps[i]) == Math.Abs(tempcour))))
+                {
+                    tempcour = temps[i];
+                }
+
+            }
+            return tempcour;
+        }
+
+
+
+
+        public static bool Exists(int[] ints, int k)
+        {
+            int i = 0;
+            bool isTrouve = false;
+            if (ints.Length == 0)
+            {
+                return false;
+            }
+            else if (ints[0] == k)
+            {
+                return true;
+            }
+            else
+            {
+                int m = (i + ints.Length) / 2;
+                if (ints[m] == k)
+                {
+                    return true;
+                }
+                else
+                {
+                    i = m;
+                    while ((i <= ints.Length-1) && (isTrouve == false))
+                    {
+
+                        if (ints[i] == k)
+                        {
+                            isTrouve = true;
+                        }
+                        else if (ints[i] < k)
+                        {
+                            i = i + 1;
+                        }
+                        else
+                        {
+                            i = i - 1;
+                        }
+
+                    }
+                }
+
+
+            }
+            return isTrouve;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="d"></param>
+        /// <returns></returns>
+
+        public static string ToShortDate(DateTime d)
+        {
+            return $"{d.ToString("d")}";
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="d"></param>
+        /// <returns></returns>
+        public static string ToFrenchFullDate(DateTime d)
+        {
+            return $"{d.ToString("yyyy/MM/dd:mm:ss")}";
         }
     }
 }

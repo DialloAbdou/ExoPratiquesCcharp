@@ -19,12 +19,19 @@ using ExopratiqueCcharp.session2;
 // var conv = Exercice1.GetConvert();
 //var word = "robert trebor";
 //var estpalindrom =  Exercice1.IsPalindrome(word);
-
 //Console.WriteLine(estpalindrom);
 
-var tab = new int[] { 1, 2, 3, 1, 1, 1, 2, 5 };
+//var tab = new int[] { 1, 2, 3, 1, 1, 1, 2, 5 };
 
- var disc =Exercice1.StoreAndCount(tab);
+// var disc =Exercice1.StoreAndCount(tab);
 
-Exercice1.lireDisct(disc);
+//Exercice1.lireDisct(disc);
+
+//var tabsTrie = new int[] { -3, 6, 8, 10, 12, 14 };
+var date1 = new DateTime(2008, 5, 1, 8, 30, 52);
+Console.WriteLine(Exercice1.ToShortDate(date1));
+
+Console.WriteLine(Exercice1.ToFrenchFullDate(date1));
+//var estTrouve = Exercice1.Exists(tabsTrie, 14);
+//Console.WriteLine(estTrouve);
 

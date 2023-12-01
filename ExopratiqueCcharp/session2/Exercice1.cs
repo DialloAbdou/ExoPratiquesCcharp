@@ -148,8 +148,6 @@ namespace ExopratiqueCcharp.session2
         }
 
 
-
-
         public static bool Exists(int[] ints, int k)
         {
             int i = 0;
